@@ -17,7 +17,7 @@ pipeline {
 
                 script {
                     sh "pwd && ls"
-                    sh "git clone https://github.com/Larry-init/mynewrepo.git"
+                    sh "git clone https://github.com/Larry-init/mynewrepo/tree/main/mynewapp"
                 }
                 
             }
